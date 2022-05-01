@@ -29,7 +29,7 @@ function search(root , str , i){
     return search(root.links[str[i]] , str , i+1);
 }
 
-const root = new TrieNode();
+// const root = new TrieNode();
 
 // insert(root , "Rohit" , 0);
 // insert(root , "Ronaldo" , 0);

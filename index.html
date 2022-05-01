@@ -4,11 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <title>AutoComplete</title>
 </head>
 <body>
-    <h1>ni trovu</h1>    
-    <input id="text-box" >
+    <header>
+        <div class="container">
+            <h1>ni trovu</h1>    
+            
+        </div>
+    </header>
+
+    <main>
+        <div class="container searchengine">
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Enter Text" id="text-box">
+            </div>
+        </div>
+        <ul id="list" class="list-group"></ul>
+
+    </main>
+
+    <!-- <input id="text-box" > -->
     <script src="js/trie.js"></script>
     <script src="js/index.js"></script>
 </body>
